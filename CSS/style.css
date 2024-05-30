@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+    
+form{
+    text-align: center;
+    margin-bottom: 30px;    
+}
+    
+input{
+    padding: 8px;
+    width: 50%;
+}
+    
+button{
+padding: 8px 20px;
+background-color: rgb(35, 141, 255);
+color: white;
+border: none;
+cursor: pointer;
+}
+    
+button:hover{
+background-color: rgb(17, 122, 233);
+}
+
+ul{
+list-style-type: none;
+}
+
+li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+    
+.eliminar-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.eliminar-btn:hover{
+    background-color: rgb(112, 13, 13);
+}
+
+.completada{
+    text-decoration: line-through;
+    color: red;
+
+
+}
